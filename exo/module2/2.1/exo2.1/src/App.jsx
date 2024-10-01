@@ -12,6 +12,7 @@ const ClickCounter = ({ title, message }) => {
         count is {count}
       </button>
       {count >= 10 && <p>{message}</p>}
+    
     </div>
   );
 };
